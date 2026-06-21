@@ -1,0 +1,17 @@
+{
+    "name": "freescout-modules/public-holidays",
+    "description": "Region-aware public holidays for FreeScout with holiday-specific auto-replies and a REST API.",
+    "type": "freescout-module",
+    "license": "AGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Yannick Guerdat"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Modules\\PublicHolidays\\": ""
+        }
+    }
+}

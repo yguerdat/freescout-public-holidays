@@ -1,0 +1,22 @@
+/* Public Holidays module styles */
+
+#publicholidays-settings-page .well-sm .form-control {
+    margin-right: 6px;
+    margin-bottom: 4px;
+}
+
+#publicholidays-settings-page pre {
+    background: #f7f7f9;
+    border: 1px solid #e1e1e8;
+    border-radius: 4px;
+    padding: 10px;
+    white-space: pre-wrap;
+}
+
+#publicholidays-settings-page .table td {
+    vertical-align: middle;
+}
+
+#publicholidays-settings-page textarea[name^="notice_template_"] {
+    margin-bottom: 10px;
+}

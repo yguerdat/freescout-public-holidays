@@ -1,0 +1,26 @@
+<?php
+
+return [
+    'new_year'        => 'Nouvel An',
+    'berchtold'       => 'Saint-Berchtold',
+    'epiphany'        => 'Épiphanie',
+    'republic_ne'     => 'Instauration de la République',
+    'st_joseph'       => 'Saint-Joseph',
+    'good_friday'     => 'Vendredi saint',
+    'easter_monday'   => 'Lundi de Pâques',
+    'labour_day'      => 'Fête du travail',
+    'ascension'       => 'Ascension',
+    'whit_monday'     => 'Lundi de Pentecôte',
+    'corpus_christi'  => 'Fête-Dieu',
+    'jura_plebiscite' => 'Commémoration du plébiscite jurassien',
+    'national_day'    => 'Fête nationale suisse',
+    'assumption'      => 'Assomption',
+    'jeune_genevois'  => 'Jeûne genevois',
+    'jeune_federal'   => 'Lundi du Jeûne fédéral',
+    'bruder_klaus'    => 'Fête de saint Nicolas de Flüe',
+    'all_saints'      => 'Toussaint',
+    'immaculate'      => 'Immaculée Conception',
+    'christmas'       => 'Noël',
+    'st_stephen'      => 'Saint-Étienne',
+    'restauration_ge' => 'Restauration de la République',
+];
