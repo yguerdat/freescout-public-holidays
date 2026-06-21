@@ -39,7 +39,7 @@ class HolidayService
      *
      * @return int number of holiday rows written
      */
-    public function generateYear($year, array $cantons = null)
+    public function generateYear($year, ?array $cantons = null)
     {
         $year = (int) $year;
         $cantons = $cantons ?: $this->getCantons();

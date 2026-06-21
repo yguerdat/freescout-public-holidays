@@ -54,7 +54,7 @@ class PublicHoliday extends Model
     /**
      * All holidays for a year, optionally restricted to cantons.
      */
-    public static function forYear($year, array $cantons = null)
+    public static function forYear($year, ?array $cantons = null)
     {
         $query = self::where('year', (int) $year);
 
