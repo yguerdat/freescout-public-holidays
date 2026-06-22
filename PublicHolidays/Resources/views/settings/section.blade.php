@@ -159,7 +159,7 @@
                     <tbody>
                         @forelse($holidays as $h)
                         <tr>
-                            <td>{{ \Carbon\Carbon::parse($h->date)->format('d.m.Y') }} <small class="text-muted">{{ \Carbon\Carbon::parse($h->date)->locale(app()->getLocale())->isoFormat('ddd') }}</small></td>
+                            <td>{{ \Carbon\Carbon::parse($h->date)->format('d.m.Y') }} <small class="text-muted">{{ \Carbon\Carbon::parse($h->date)->format('D') }}</small></td>
                             <td>{{ $h->localizedName() }}</td>
                             <td>{{ $h->canton ?: '—' }}</td>
                             <td>
